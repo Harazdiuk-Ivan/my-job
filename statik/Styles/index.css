@@ -1,3 +1,8 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
 /* ____КОНТЕНТ___ */
 
 .Ht1 {
@@ -12,6 +17,7 @@
     border-width: 0.5px;
     padding-right: 20px;
     display: inline-block;
+    
 }
 .list-cont>p{
     text-align: center;
@@ -60,4 +66,46 @@
 .nav-cont{
     display: flex;
     justify-content: space-between;
+    background-color: rgb(224, 224, 253);
+   
+}
+.nav-cont>nav>ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.nav-cont>nav>ul>li>a{
+    display: block;
+    padding: 5px;
+    border-style: solid;
+    border-width: 0.3px;
+}
+
+
+@media( max-width:900px ){
+    .nav-cont{
+        flex-direction: column;
+    }
+
+}
+/* ------------------- */
+
+.text-page{
+    padding: 15px;
+}
+
+.page{
+    display: flex;
+    justify-content: center;
+}
+
+.header{
+    width: 13%;
+    background-color: rgb(224, 224, 253);
+}
+
+.section{
+    width: 83%;
 }
