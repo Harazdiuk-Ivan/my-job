@@ -1,0 +1,63 @@
+/* ____КОНТЕНТ___ */
+
+.Ht1 {
+    font-weight: bold;
+}
+.bold-text{
+    font-style: italic;
+    font-weight: bold;
+}
+.list-cont{
+    border-style: solid;
+    border-width: 0.5px;
+    padding-right: 20px;
+    display: inline-block;
+}
+.list-cont>p{
+    text-align: center;
+    font-weight: bold;
+}
+
+
+/* КАРТИНКИ  */
+.logo-html-DOCT{
+    max-height: 320px;
+    max-width: 300px;
+}
+.logo-html5{
+    max-height: 100px;
+    max-width: 90px;
+}
+.logo-html{
+    max-width: 80px;
+}
+
+
+/* КОНТЕЙНЕР -HTML- */
+.img-cont>p{
+    background-color: rgb(207, 207, 247);
+    text-align: center;
+    font-weight: bold;
+    margin-top: 3px;
+}
+.img-cont{
+    float: right;
+    border-style: solid;
+    border-width: 0.5px;
+    padding: 5px;
+    margin-left: 10px;
+}
+.img-cont>div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* ----------------- */
+
+/* ВЕРХНЯ НАВ. ПАНЕЛЬ */
+
+.nav-cont{
+    display: flex;
+    justify-content: space-between;
+}
